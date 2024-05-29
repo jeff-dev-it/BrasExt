@@ -1,8 +1,8 @@
 {
   "name": "ba",
-  "displayName": "ba",
-  "description": "Is lang ba",
-  "version": "0.0.1",
+  "displayName": "BrasLang",
+  "description": "Is a Brazilian language",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.89.0"
   },
@@ -22,7 +22,7 @@
     }],
     "grammars": [{
       "language": "bras_lang",
-      "scopeName": "main.ba",
+      "scopeName": "source.bras_lang",
       "path": "./syntaxes/bras_lang.tmLanguage.json"
     }]
   }
