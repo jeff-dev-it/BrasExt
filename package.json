@@ -1,0 +1,25 @@
+{
+  "name": "ba",
+  "displayName": "ba",
+  "description": "Is lang ba",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "bras_lang",
+      "aliases": ["BrasLang", "bras_lang"],
+      "extensions": [".ba"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "bras_lang",
+      "scopeName": "main.ba",
+      "path": "./syntaxes/bras_lang.tmLanguage.json"
+    }]
+  }
+}
